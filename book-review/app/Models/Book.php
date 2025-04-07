@@ -67,5 +67,5 @@ class Book extends Model
     {
         return $query->highestRated(now()->subMonth(6), now())->popular(now()->subMonth(6), now())->minReviews(5);
     }
-    
+
 }
