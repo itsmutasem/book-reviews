@@ -13,18 +13,21 @@ Core Features:
 ✅ Book Listing & Search
 - Search books by title
 - Filter by:
--- Popular Last Month
--- Popular Last 6 Months
--- Highest Rated Last Month
--- Highest Rated Last 6 Months
+1- Popular Last Month
+2- Popular Last 6 Months
+3- Highest Rated Last Month
+4- Highest Rated Last 6 Months
+
 ✅ Book Details Page
 - Shows average rating + number of reviews
 - List of latest reviews
 - Add your own review (with a star rating)
+
 ✅ Review System
 - Add a review with form validation
 - Star rating from 1 to 5
 - Real-time cache invalidation on create/update/delete
+
 ✅ Performance Optimizations
 - Caching queries by filter + search
 - Cache invalidation for books and reviews using model events
