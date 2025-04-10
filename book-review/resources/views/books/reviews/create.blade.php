@@ -5,7 +5,7 @@
     <form method="POST" action="{{ route('books.reviews.store', $book) }}">
         @csrf
         <label for="review">Review</label>
-        <textarea name="review" id="review" required class="input mb-4"></textarea>
+        <textarea name="review" id="review" required class="input mb-4">{{ old('review') }}</textarea>
         @error('review')
             <p class="error-message">{{ $message }}</p>
         @enderror
